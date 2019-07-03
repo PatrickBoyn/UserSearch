@@ -1,3 +1,5 @@
+const gitHub = new GitHub();
+
 const searchUser = document.getElementById('search-user');
 
 searchUser.addEventListener('keyup', e => {
