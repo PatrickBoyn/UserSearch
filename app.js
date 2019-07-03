@@ -7,7 +7,10 @@ searchUser.addEventListener('keyup', e => {
 
   if (userText !== '') {
     gitHub.getUser(userText).then(data => {
-      console.log(data);
+      if (data.profile.message === 'Not Fount') {
+      } else {
+      }
     });
+  } else {
   }
 });
