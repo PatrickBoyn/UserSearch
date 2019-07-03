@@ -17,8 +17,18 @@ class UI {
                <span>Public Gists: ${user.public_gists}</span>
                <span>Followers: ${user.followers}</span>
                <span>Following: ${user.following}</span>
+               <br><br>
+               <ul class="list-group">
+                 <li class="list-group-item">Company: ${user.company}</li>
+                 <li class="list-group-item">Blog: ${user.blog}</li>
+                 <li class="list-group-item>Location: ${user.location}</li>
+                 <li class="list-group-item>Created At: ${user.created_at}</li>
+               </ul>
             </div>
         </div>
-    </div>`;
+    </div>
+    <h3 class="page-heading">Latest Repos</h3>
+    <div id="repos"></div>
+    `;
   }
 }
