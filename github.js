@@ -13,6 +13,10 @@ class GitHub {
       }&client_secret=${this.client_secret}`
     );
 
-    const profileData = await profileResponse.json();
+    const profile = await profileResponse.json();
+
+    return {
+      profile
+    };
   }
 }
