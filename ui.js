@@ -3,5 +3,5 @@ class UI {
     this.profile = document.getElementById('profile');
   }
 
-  showProfile() {}
+  showProfile(user) {}
 }
