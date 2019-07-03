@@ -12,5 +12,7 @@ class GitHub {
         this.client_id
       }&client_secret=${this.client_secret}`
     );
+
+    const profileData = await profileResponse.json();
   }
 }
