@@ -10,7 +10,7 @@ searchUser.addEventListener('keyup', e => {
       if (data.profile.message === 'Not Fount') {
         // Show alert
       } else {
-        ui.showProfile();
+        ui.showProfile(data.profile);
       }
     });
   } else {
