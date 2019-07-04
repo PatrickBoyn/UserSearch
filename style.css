@@ -49,9 +49,6 @@ img {
 .search-container {
   padding: 2rem;
 }
-.row {
-  display: flex;
-}
 a:link {
   text-decoration: none;
 }
