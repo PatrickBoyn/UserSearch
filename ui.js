@@ -32,6 +32,8 @@ class UI {
     `;
   }
 
+  showRepos(repos) {}
+
   showAlert(message, className) {
     this.clearAlert();
     const div = document.createElement('div');
