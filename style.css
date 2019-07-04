@@ -26,6 +26,10 @@ footer {
   padding: 1.5rem 1rem;
   box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
 }
+.lead {
+  font-size: 1.5rem;
+  padding-bottom: 3px;
+}
 .search-container {
   padding: 2rem;
 }
