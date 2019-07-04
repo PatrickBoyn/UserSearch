@@ -49,6 +49,9 @@ img {
 .search-container {
   padding: 2rem;
 }
+.row {
+  font-size: 1.3rem;
+}
 a:link {
   text-decoration: none;
 }
