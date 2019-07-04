@@ -35,7 +35,22 @@ class UI {
   showRepos(repos) {
     let output = '';
 
-    repos.forEach(repo => {});
+    repos.forEach(repo => {
+      output += `
+        <div class="card card-body>
+           <div class="row">
+              <div class="col-1-of-6>
+                <a href="${repo.html_url}" target="_blank">${repo.name}</a>
+              </div>
+              <div class="col-1-of-6>
+                <span class="badge">Stars: ${repo.stargazers_count}</span>
+                <span class="badge">Watchers: ${repo.watchers_count}</span>
+                <span class="badge">Forks: ${repo.forks_count}</span>
+              </div>
+           </div>
+        </div>
+      `;
+    });
   }
 
   showAlert(message, className) {
