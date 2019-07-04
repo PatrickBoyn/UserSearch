@@ -44,7 +44,13 @@ class UI {
     container.insertBefore(div, search);
   }
 
-  clearAlert() {}
+  clearAlert() {
+    const currentAlert = document.querySelector('.alert');
+
+    if (currentAlert) {
+      currentAlert.remove();
+    }
+  }
 
   clearProfile() {
     this.profile.innerHTML = '';
