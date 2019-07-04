@@ -51,6 +51,8 @@ class UI {
         </div>
       `;
     });
+
+    document.getElementById('repos').innerHTML = output;
   }
 
   showAlert(message, className) {
