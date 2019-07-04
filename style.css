@@ -33,6 +33,13 @@ footer {
   font-size: 1.5rem;
   padding-bottom: 3px;
 }
+.alert {
+  text-align: center;
+  background-color: #ff9d94;
+  color: white;
+  border: 1px solid red;
+  width: 30%;
+}
 .search-container {
   padding: 2rem;
 }
