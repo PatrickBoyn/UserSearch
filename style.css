@@ -15,7 +15,15 @@ body {
 .navbar {
   /* TODO change color to something more interesting this is for testing */
   background-color: aqua;
+  font-size: 2rem;
   position: fixed;
   width: 100%;
   padding: 1.5rem 1rem;
+}
+a:link {
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  color: #fff;
 }
