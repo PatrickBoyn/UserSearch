@@ -9,6 +9,7 @@ searchUser.addEventListener('keyup', e => {
     gitHub.getUser(userText).then(data => {
       if (data.profile.message === 'Not Fount') {
         // Show alert
+        ui.showAlert('User not found', 'alert');
       } else {
         ui.showProfile(data.profile);
       }
