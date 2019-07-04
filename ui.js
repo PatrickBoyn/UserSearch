@@ -32,6 +32,11 @@ class UI {
     `;
   }
 
+  showAlert(message, className) {
+    const div = document.createElement('div');
+    div.className = className;
+  }
+
   clearProfile() {
     this.profile.innerHTML = '';
   }
