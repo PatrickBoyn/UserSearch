@@ -37,6 +37,10 @@ class UI {
     div.className = className;
 
     div.appendChild(document.createTextNode(message));
+
+    const container = document.querySelector('.search-container');
+
+    const search = document.querySelector('.search');
   }
 
   clearProfile() {
