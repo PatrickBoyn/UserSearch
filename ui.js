@@ -33,6 +33,7 @@ class UI {
   }
 
   showAlert(message, className) {
+    this.clearAlert();
     const div = document.createElement('div');
 
     div.className = className;
