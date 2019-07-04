@@ -57,6 +57,9 @@ img {
 .row {
   font-size: 1.3rem;
 }
+.card {
+  margin: 1rem 0;
+}
 a:link {
   text-decoration: none;
 }
