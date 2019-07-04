@@ -21,8 +21,8 @@ class UI {
                <ul class="list-group">
                  <li class="list-group-item">Company: ${user.company}</li>
                  <li class="list-group-item">Blog: ${user.blog}</li>
-                 <li class="list-group-item>Location: ${user.location}</li>
-                 <li class="list-group-item>Created At: ${user.created_at}</li>
+                 <li class="list-group-item">Location: ${user.location}</li>
+                 <li class="list-group-item">Created At: ${user.created_at}</li>
                </ul>
             </div>
         </div>
