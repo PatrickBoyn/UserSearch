@@ -32,7 +32,11 @@ class UI {
     `;
   }
 
-  showRepos(repos) {}
+  showRepos(repos) {
+    let output = '';
+
+    repos.forEach(repo => {});
+  }
 
   showAlert(message, className) {
     this.clearAlert();
