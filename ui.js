@@ -15,10 +15,10 @@ class UI {
     }">View Profile</a>
             </div>
             <div class="col-1-of-9>
-               <span>Public Repos: ${user.public_repos}</span>
-               <span>Public Gists: ${user.public_gists}</span>
-               <span>Followers: ${user.followers}</span>
-               <span>Following: ${user.following}</span>
+               <span class="badge">Public Repos: ${user.public_repos}</span>
+               <span class="badge">Public Gists: ${user.public_gists}</span>
+               <span class="badge">Followers: ${user.followers}</span>
+               <span class="badge">Following: ${user.following}</span>
                <br><br>
                <ul class="list-group">
                  <li class="list-group-item">Company: ${user.company}</li>
