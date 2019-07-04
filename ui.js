@@ -41,6 +41,8 @@ class UI {
     const container = document.querySelector('.search-container');
 
     const search = document.querySelector('.search');
+
+    container.insertBefore(div, search);
   }
 
   clearProfile() {
