@@ -44,6 +44,8 @@ class UI {
     container.insertBefore(div, search);
   }
 
+  clearAlert() {}
+
   clearProfile() {
     this.profile.innerHTML = '';
   }
