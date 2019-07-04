@@ -34,12 +34,11 @@ class UI {
 
   showAlert(message, className) {
     const div = document.createElement('div');
-    div.className = className;
 
+    div.className = className;
     div.appendChild(document.createTextNode(message));
 
     const container = document.querySelector('.search-container');
-
     const search = document.querySelector('.search');
 
     container.insertBefore(div, search);
