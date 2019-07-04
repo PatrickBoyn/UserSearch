@@ -4,7 +4,7 @@ class UI {
   }
 
   showProfile(user) {
-    `<div class="card card-body">
+    this.profile.innerHTML = `<div class="card card-body">
         <div class="row">
             <div class="col-1-of-3">
                 <img src="${user.avatar_url}">
