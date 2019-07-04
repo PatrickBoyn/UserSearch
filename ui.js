@@ -42,9 +42,9 @@ class UI {
         <div class="card card-body>
            <div class="row">
               <div class="col-1-of-6>
-                <a class="repo-header" href="${
-                  repo.html_url
-                }" target="_blank">${repo.name}</a>
+              <a class="repo-header" href="${repo.html_url}" target="_blank">${
+        repo.name
+      }</a>
               </div>
               <div class="col-1-of-6>
                 <span class="badge">Stars: ${repo.stargazers_count}</span>
