@@ -12,3 +12,10 @@ body {
   padding: 1.5rem;
   box-sizing: border-box;
 }
+.navbar {
+  /* TODO change color to something more interesting this is for testing */
+  background-color: aqua;
+  position: fixed;
+  width: 100%;
+  padding: 1.5rem 1rem;
+}
