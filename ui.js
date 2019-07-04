@@ -7,10 +7,12 @@ class UI {
     this.profile.innerHTML = `<div class="card card-body">
         <div class="row">
             <div class="col-1-of-3">
-                <img src="${user.avatar_url}">
+                
                 <a href="${
                   user.html_url
-                }" target="_blank" class="btn">View Profile</a>
+                }" target="_blank" class="btn"><img src="${
+      user.avatar_url
+    }">View Profile</a>
             </div>
             <div class="col-1-of-9>
                <span>Public Repos: ${user.public_repos}</span>
